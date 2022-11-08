@@ -8,17 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		7426C84F29155F1100857DCB /* Fifa_CountriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426C84E29155F1100857DCB /* Fifa_CountriesApp.swift */; };
-		7426C85129155F1100857DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426C85029155F1100857DCB /* ContentView.swift */; };
 		7426C85329155F1100857DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7426C85229155F1100857DCB /* Assets.xcassets */; };
 		7426C85629155F1100857DCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7426C85529155F1100857DCB /* Preview Assets.xcassets */; };
+		7426C85D29155F4500857DCB /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426C85C29155F4500857DCB /* MainPage.swift */; };
+		7426C861291560DA00857DCB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7426C860291560DA00857DCB /* Country.swift */; };
+		7429CA68291A5A9100DFA2CA /* CountryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA67291A5A9100DFA2CA /* CountryDetailsView.swift */; };
+		7429CA6A291A5F8800DFA2CA /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA69291A5F8800DFA2CA /* Extentions.swift */; };
+		7429CA6D291A647700DFA2CA /* CountryDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA6C291A647700DFA2CA /* CountryDetailHeaderView.swift */; };
+		7429CA6F291A68F100DFA2CA /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA6E291A68F100DFA2CA /* ComponentView.swift */; };
+		7429CA73291A7D9D00DFA2CA /* CountryDetailBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA72291A7D9D00DFA2CA /* CountryDetailBottom.swift */; };
+		7429CA78291AAD4C00DFA2CA /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429CA77291AAD4C00DFA2CA /* TestView.swift */; };
+		743457392918F52D00C9F7F4 /* CountryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743457382918F52D00C9F7F4 /* CountryCellView.swift */; };
+		7434573C2918F5BA00C9F7F4 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434573B2918F5BA00C9F7F4 /* CountryViewModel.swift */; };
+		7434573E2918F99500C9F7F4 /* CountryModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434573D2918F99500C9F7F4 /* CountryModelData.swift */; };
+		743457442918FD7700C9F7F4 /* countryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 743457432918FD7700C9F7F4 /* countryData.json */; };
+		743457462919033A00C9F7F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743457452919033A00C9F7F4 /* NetworkManager.swift */; };
+		74345749291958CD00C9F7F4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74345748291958CD00C9F7F4 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7426C84B29155F1100857DCB /* Fifa Countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fifa Countries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7426C84E29155F1100857DCB /* Fifa_CountriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fifa_CountriesApp.swift; sourceTree = "<group>"; };
-		7426C85029155F1100857DCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7426C85229155F1100857DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7426C85529155F1100857DCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7426C85C29155F4500857DCB /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		7426C860291560DA00857DCB /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		7426C863291563C800857DCB /* sampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleData.json; sourceTree = "<group>"; };
+		7429CA67291A5A9100DFA2CA /* CountryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsView.swift; sourceTree = "<group>"; };
+		7429CA69291A5F8800DFA2CA /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		7429CA6C291A647700DFA2CA /* CountryDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailHeaderView.swift; sourceTree = "<group>"; };
+		7429CA6E291A68F100DFA2CA /* ComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentView.swift; sourceTree = "<group>"; };
+		7429CA72291A7D9D00DFA2CA /* CountryDetailBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailBottom.swift; sourceTree = "<group>"; };
+		7429CA77291AAD4C00DFA2CA /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		743457382918F52D00C9F7F4 /* CountryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellView.swift; sourceTree = "<group>"; };
+		7434573B2918F5BA00C9F7F4 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		7434573D2918F99500C9F7F4 /* CountryModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModelData.swift; sourceTree = "<group>"; };
+		743457432918FD7700C9F7F4 /* countryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countryData.json; sourceTree = "<group>"; };
+		743457452919033A00C9F7F4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		74345748291958CD00C9F7F4 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +78,12 @@
 		7426C84D29155F1100857DCB /* Fifa Countries */ = {
 			isa = PBXGroup;
 			children = (
-				7426C84E29155F1100857DCB /* Fifa_CountriesApp.swift */,
-				7426C85029155F1100857DCB /* ContentView.swift */,
-				7426C85229155F1100857DCB /* Assets.xcassets */,
+				7434573A2918F59F00C9F7F4 /* ViewModel */,
+				743457472919033E00C9F7F4 /* Services */,
+				7426C85F29155F6E00857DCB /* Views */,
+				7426C862291560DF00857DCB /* Model */,
+				7429CA6B291A5F8C00DFA2CA /* Helpers */,
+				7426C85E29155F6400857DCB /* Common */,
 				7426C85429155F1100857DCB /* Preview Content */,
 			);
 			path = "Fifa Countries";
@@ -62,9 +92,92 @@
 		7426C85429155F1100857DCB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7429CA77291AAD4C00DFA2CA /* TestView.swift */,
 				7426C85529155F1100857DCB /* Preview Assets.xcassets */,
+				7426C863291563C800857DCB /* sampleData.json */,
+				7434573D2918F99500C9F7F4 /* CountryModelData.swift */,
+				743457432918FD7700C9F7F4 /* countryData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7426C85E29155F6400857DCB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7426C84E29155F1100857DCB /* Fifa_CountriesApp.swift */,
+				7426C85229155F1100857DCB /* Assets.xcassets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7426C85F29155F6E00857DCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7429CA74291A89CA00DFA2CA /* MainView */,
+				7429CA76291A8A1300DFA2CA /* CountryDetailView */,
+				7429CA75291A8A0000DFA2CA /* CommonView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7426C862291560DF00857DCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7426C860291560DA00857DCB /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7429CA6B291A5F8C00DFA2CA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7429CA69291A5F8800DFA2CA /* Extentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7429CA74291A89CA00DFA2CA /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7426C85C29155F4500857DCB /* MainPage.swift */,
+				743457382918F52D00C9F7F4 /* CountryCellView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		7429CA75291A8A0000DFA2CA /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				74345748291958CD00C9F7F4 /* BackgroundView.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		7429CA76291A8A1300DFA2CA /* CountryDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7429CA67291A5A9100DFA2CA /* CountryDetailsView.swift */,
+				7429CA6C291A647700DFA2CA /* CountryDetailHeaderView.swift */,
+				7429CA6E291A68F100DFA2CA /* ComponentView.swift */,
+				7429CA72291A7D9D00DFA2CA /* CountryDetailBottom.swift */,
+			);
+			path = CountryDetailView;
+			sourceTree = "<group>";
+		};
+		7434573A2918F59F00C9F7F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7434573B2918F5BA00C9F7F4 /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		743457472919033E00C9F7F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				743457452919033A00C9F7F4 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743457442918FD7700C9F7F4 /* countryData.json in Resources */,
 				7426C85629155F1100857DCB /* Preview Assets.xcassets in Resources */,
 				7426C85329155F1100857DCB /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +251,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7426C85129155F1100857DCB /* ContentView.swift in Sources */,
+				7429CA78291AAD4C00DFA2CA /* TestView.swift in Sources */,
+				7429CA68291A5A9100DFA2CA /* CountryDetailsView.swift in Sources */,
+				7429CA73291A7D9D00DFA2CA /* CountryDetailBottom.swift in Sources */,
 				7426C84F29155F1100857DCB /* Fifa_CountriesApp.swift in Sources */,
+				7429CA6A291A5F8800DFA2CA /* Extentions.swift in Sources */,
+				7426C861291560DA00857DCB /* Country.swift in Sources */,
+				74345749291958CD00C9F7F4 /* BackgroundView.swift in Sources */,
+				7429CA6D291A647700DFA2CA /* CountryDetailHeaderView.swift in Sources */,
+				7434573E2918F99500C9F7F4 /* CountryModelData.swift in Sources */,
+				743457462919033A00C9F7F4 /* NetworkManager.swift in Sources */,
+				7429CA6F291A68F100DFA2CA /* ComponentView.swift in Sources */,
+				7426C85D29155F4500857DCB /* MainPage.swift in Sources */,
+				743457392918F52D00C9F7F4 /* CountryCellView.swift in Sources */,
+				7434573C2918F5BA00C9F7F4 /* CountryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +390,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fifa Countries/Preview Content\"";
+				DEVELOPMENT_TEAM = ZN57B64W5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,6 +409,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "nicol.vishan.Fifa-Countries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +421,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fifa Countries/Preview Content\"";
+				DEVELOPMENT_TEAM = ZN57B64W5P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +440,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "nicol.vishan.Fifa-Countries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
